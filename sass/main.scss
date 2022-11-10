@@ -1,0 +1,10 @@
+@import "abstracts/mixins";
+@import "abstracts/variables";
+
+.top-nav {
+  &__icon {
+    width: 1rem;
+    height: 1rem;
+    background-color: var(--color-primary-lavender);
+  }
+}
