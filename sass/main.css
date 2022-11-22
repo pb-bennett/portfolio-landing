@@ -16,6 +16,32 @@
   --color-primary-night-moon-dark: #102b4a;
 }
 
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-image: linear-gradient(to right bottom, var(--color-primary-deep-blue), var(--color-primary-deep-blue-dark));
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.container {
+  width: 80%;
+  height: 40rem;
+  background-color: var(--color-primary-mandarin-dark);
+  margin: 5rem auto;
+}
+
 .top-nav__icon {
   width: 1rem;
   height: 1rem;

@@ -1,0 +1,26 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  // This defines what 1rem is - allows for people to increase default font size in browser
+  font-size: 62.5%; //1 rem = 10px; 10px/16px = 62.5%
+}
+
+body {
+  background-image: linear-gradient(to right bottom, var(--color-primary-deep-blue), var(--color-primary-deep-blue-dark));
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.container {
+  width: 80%;
+  height: 40rem;
+  background-color: var(--color-primary-mandarin-dark);
+  margin: 5rem auto;
+}
